@@ -1,0 +1,29 @@
+<h2>Pets</h2>
+
+
+<%= form_with scope: :pet, local: true do |form| %>
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %><br>
+  </p>
+
+  <p>
+    <%= form.label :age %><br>
+    <%= form.text_field :age %><br>
+  </p>
+  
+  <p>
+    <%= form.label :color %><br>
+     <%= form.text_field :color %><br>
+  </p>
+
+  <p>
+    <%= form.label :species %><br>
+    <%= form.text_field :species %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+
+<% end %>
