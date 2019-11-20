@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Base: Use at LEAST Rails 5
 
-Things you may want to cover:
+Part One: Make a RESTful API for Owners and Pets
+- owner
+    - name
+    - age
+    - occupation
+- pet
+    - name
+    - age
+    - color
+    - species
 
-* Ruby version
+Owners can own multiple pets and pets can have multiple owners
 
-* System dependencies
+Part Two: I should be able to do the the following:
+- CRUD
+- sort
+- filter/search
+- page
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Part Three: Build a basic UI on top of this API
